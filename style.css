@@ -1,18 +1,105 @@
+/* RESET */
 html, body {
 	width: 100%;
-}
-
-img {
-	position: relative;
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: auto;
+}
+p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
 }
 
+/* TOP HALF */
+#top {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 772px;
+	height: 800px;
+}
+#top img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 100%;
+}
 #quote {
 	position: absolute;
-	top: 45%;
-	transform: translateY(-55%);
-	right: 20px;
+	bottom: 20%;
+	right: 15%;
+	color: #fff;
+	font-family: serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 0;
 }
+#quote p {
+	padding: 3px 0;
+}
+#l2 {
+	margin-left: 25px;
+}
+
+/* BOTTOM HALF */
+#bottom {
+	position: relative;
+	float: left;
+	width: 772px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	position: relative;
+	margin: 40px 0 10px 10px;
+	font-family: serif;
+	font-size: 40px;
+	color: red;
+}
+#hr {
+	margin: -20px 40px 0 10px;
+	padding: 0;
+	width: 90%;
+	height: 3px;
+	background-color: lightgray;
+}
+#logo-box {
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	width: 150px;
+	height: 75px;
+}
+#logo-box img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+#logo-box p {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: gray;
+	font-family: serif;
+	font-size: 14px;
+}
+#bottom a {
+	position: absolute;
+	margin: 15px 0 15px 200px;
+	color: lightgray;
+	font-family: serif;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
