@@ -14,6 +14,15 @@ p {
     -webkit-margin-end: 0;
 }
 
+/* CONTAINER */
+#container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 772px;
+	height: auto;
+}
+
 /* TOP HALF */
 #top {
 	position: relative;
