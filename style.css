@@ -21,6 +21,7 @@ p {
 	top: 0;
 	width: 772px;
 	height: auto;
+	margin: 50px;
 }
 
 /* TOP HALF */
@@ -43,9 +44,9 @@ p {
 }
 #quote {
 	position: absolute;
-	bottom: 20%;
-	right: 15%;
-	color: #fff;
+	bottom: 30%;
+	right: 15px;
+	color: #a0a0a0;
 	font-family: serif;
 	font-size: 18px;
 	letter-spacing: 1px;
@@ -53,8 +54,9 @@ p {
 }
 #quote p {
 	padding: 3px 0;
+	margin: 0;
 }
-#l2 {
+#quote p#l2 {
 	margin-left: 25px;
 }
 
@@ -103,6 +105,7 @@ h1 {
 	color: gray;
 	font-family: serif;
 	font-size: 14px;
+	margin: 0;
 }
 #bottom a {
 	position: absolute;
